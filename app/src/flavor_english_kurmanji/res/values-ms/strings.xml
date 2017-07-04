@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Malay (ms) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Inggeris</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Kurdish</string>
+</resources>

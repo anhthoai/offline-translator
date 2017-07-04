@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Burmese (my) -->
+  <!-- en - English -->
+  <string name="lang_name_one">အင်္ဂလိပ်</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">ဆိုရာနီ</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kurmanji English</string>
+    <string name="lang_name_one">English</string>
+    <string name="lang_name_two">Kurmanji</string>
+
+    <string translatable="false" name="lang_code_one">eng</string>
+    <string translatable="false" name="lang_code_two">kmr</string>
+    <string translatable="false" name="tts_code_one">en</string>
+    <string translatable="false" name="tts_code_two">kmr</string>
+
+    <string translatable="false" name="admob_app_id">ca-app-pub-1679908467869062~8556126233</string>
+    <string translatable="false" name="admob_ad_unit_id">ca-app-pub-1679908467869062/1032859431</string>
+    <string translatable="false" name="in_app_purchase_sku_id">disable_ads_2017.07.22</string>
+</resources>

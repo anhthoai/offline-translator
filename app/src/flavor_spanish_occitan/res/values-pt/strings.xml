@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Portuguese (pt) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">espanhol</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">occitânico</string>
+</resources>

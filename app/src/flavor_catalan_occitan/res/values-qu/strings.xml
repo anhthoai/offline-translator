@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Quechua (qu) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">Catalan Simi</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Occitano Simi</string>
+</resources>

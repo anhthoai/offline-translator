@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Yiddish (yi) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">שפּאַניש</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">אקסיטאַניש</string>
+</resources>

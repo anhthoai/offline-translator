@@ -1,0 +1,2 @@
+include ':app', ':lttoolbox-java'
+project(':lttoolbox-java').projectDir = new File('libraries/lttoolbox-java')

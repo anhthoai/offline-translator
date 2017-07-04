@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Vietnamese (vi) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Tiếng Anh</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Tiếng Kurd</string>
+</resources>

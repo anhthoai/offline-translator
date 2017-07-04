@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Swiss German (gsw) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Schpanisch</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Okzitanisch</string>
+</resources>

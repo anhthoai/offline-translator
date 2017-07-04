@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Filipino (fil) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Spanish</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">Asturian</string>
+</resources>

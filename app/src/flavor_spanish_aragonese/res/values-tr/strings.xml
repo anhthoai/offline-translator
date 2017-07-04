@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Turkish (tr) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">İspanyolca</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">Aragonca</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Maltese (mt) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Spanjol</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Oċċitan</string>
+</resources>

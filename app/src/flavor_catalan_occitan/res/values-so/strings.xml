@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Somali (so) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">Katalaan</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Okitaan</string>
+</resources>

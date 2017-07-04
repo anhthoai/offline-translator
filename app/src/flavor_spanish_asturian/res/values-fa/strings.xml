@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Persian (fa) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">اسپانیایی</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">آستوری</string>
+</resources>

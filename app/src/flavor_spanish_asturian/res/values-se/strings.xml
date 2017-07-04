@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Northern Sami (se) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">spánskkagiella</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">asturiagiella</string>
+</resources>

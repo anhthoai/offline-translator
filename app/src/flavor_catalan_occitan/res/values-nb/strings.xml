@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Norwegian Bokmål (nb) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">katalansk</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">oksitansk</string>
+</resources>

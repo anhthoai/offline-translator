@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Hebrew (he) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">קטלאנית</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">אוקסיטנית</string>
+</resources>

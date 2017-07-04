@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Inari Sami (smn) -->
+  <!-- en - English -->
+  <string name="lang_name_one">eŋgâlâskielâ</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">sorani kurdikielâ</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Sakha (sah) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Ыспаанныы</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">Астуурдуу</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Dutch (nl) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Engels</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Koerdisch</string>
+</resources>

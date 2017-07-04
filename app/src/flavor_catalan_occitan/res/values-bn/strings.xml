@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Bangla (bn) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">কাতালান</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">অক্সিটান</string>
+</resources>

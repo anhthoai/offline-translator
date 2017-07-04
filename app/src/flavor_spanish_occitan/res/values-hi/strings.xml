@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Hindi (hi) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">स्पेनी</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">ओसीटान</string>
+</resources>

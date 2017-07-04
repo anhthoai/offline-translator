@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Kazakh (kk) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">испан тілі</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">астурия тілі</string>
+</resources>

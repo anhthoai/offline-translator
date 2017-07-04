@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Greek (el) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Ισπανικά</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">Αραγκονικά</string>
+</resources>

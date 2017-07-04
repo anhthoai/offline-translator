@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Tigrinya (ti) -->
+  <!-- en - English -->
+  <string name="lang_name_one">እንግሊዝኛ</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">ኩርድሽ</string>
+</resources>

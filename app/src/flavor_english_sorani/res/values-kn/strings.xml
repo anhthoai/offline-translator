@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Kannada (kn) -->
+  <!-- en - English -->
+  <string name="lang_name_one">ಇಂಗ್ಲೀಷ್</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">ಸೊರಾನಿ ಕುರ್ದಿಷ್</string>
+</resources>

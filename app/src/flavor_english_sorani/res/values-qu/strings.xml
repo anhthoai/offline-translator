@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Quechua (qu) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Ingles Simi</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">Chawpi Kurdo Simi</string>
+</resources>

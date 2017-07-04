@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Portuguese (pt) -->
+  <!-- en - English -->
+  <string name="lang_name_one">inglês</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">sorâni curdo</string>
+</resources>

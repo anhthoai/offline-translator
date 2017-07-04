@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Kannada (kn) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">ಸ್ಪ್ಯಾನಿಷ್</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">ಒಸಿಟನ್</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Hausa (ha) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Ispaniyanci</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Ositanci</string>
+</resources>

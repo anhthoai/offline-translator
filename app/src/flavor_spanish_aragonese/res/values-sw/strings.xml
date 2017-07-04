@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Swahili (sw) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Kihispania</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">Kiaragoni</string>
+</resources>

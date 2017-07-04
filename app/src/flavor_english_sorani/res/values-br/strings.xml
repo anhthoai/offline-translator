@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Breton (br) -->
+  <!-- en - English -->
+  <string name="lang_name_one">saozneg</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">kurdeg sorani</string>
+</resources>

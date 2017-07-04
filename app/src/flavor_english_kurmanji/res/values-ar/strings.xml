@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Arabic (ar) -->
+  <!-- en - English -->
+  <string name="lang_name_one">الإنجليزية</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">الكردية</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Kashmiri (ks) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">سپینِش</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">اوکسیٖٹَن</string>
+</resources>

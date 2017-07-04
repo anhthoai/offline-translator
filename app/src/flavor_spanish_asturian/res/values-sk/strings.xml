@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Slovak (sk) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">španielčina</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">astúrčina</string>
+</resources>

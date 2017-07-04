@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Maltese (mt) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Ingliż</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Kurd</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Inari Sami (smn) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">katalankielâ</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">oksitan</string>
+</resources>

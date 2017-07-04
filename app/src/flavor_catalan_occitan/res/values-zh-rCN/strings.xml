@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Chinese (zh) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">加泰罗尼亚语</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">奥克西唐文</string>
+</resources>

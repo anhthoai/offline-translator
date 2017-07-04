@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Dutch (nl) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">Catalaans</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Occitaans</string>
+</resources>

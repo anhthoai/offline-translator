@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Latvian (lv) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">spāņu</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">aragoniešu</string>
+</resources>

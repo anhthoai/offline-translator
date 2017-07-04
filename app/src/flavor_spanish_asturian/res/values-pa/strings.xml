@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Punjabi (pa) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">ਸਪੇਨੀ</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">ਅਸਤੂਰੀ</string>
+</resources>

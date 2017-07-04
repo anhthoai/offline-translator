@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aragonese Spanish</string>
+    <string name="lang_name_one">Spanish</string>
+    <string name="lang_name_two">Aragonese</string>
+
+    <string translatable="false" name="lang_code_one">spa</string>
+    <string translatable="false" name="lang_code_two">arg</string>
+    <string translatable="false" name="tts_code_one">es</string>
+    <string translatable="false" name="tts_code_two">an</string>
+</resources>

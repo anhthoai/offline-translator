@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Marathi (mr) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">स्पॅनिश</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">अर्गोनीज</string>
+</resources>

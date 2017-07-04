@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Occitan Catalan</string>
+    <string name="lang_name_one">Catalan</string>
+    <string name="lang_name_two">Occitan</string>
+
+    <string translatable="false" name="lang_code_one">ca</string>
+    <string translatable="false" name="lang_code_two">oc</string>
+    <string translatable="false" name="tts_code_one">ca</string>
+    <string translatable="false" name="tts_code_two">oc</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Turkish (tr) -->
+  <!-- en - English -->
+  <string name="lang_name_one">İngilizce</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Kürtçe</string>
+</resources>

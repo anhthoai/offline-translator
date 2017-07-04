@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Somali (so) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Ingiriisi</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Kurdishka</string>
+</resources>

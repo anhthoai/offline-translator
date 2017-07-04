@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Thai (th) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">สเปน</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">อ็อกซิตัน</string>
+</resources>

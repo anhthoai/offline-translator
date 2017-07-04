@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Asturian (ast) -->
+  <!-- en - English -->
+  <string name="lang_name_one">inglés</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">curdu</string>
+</resources>

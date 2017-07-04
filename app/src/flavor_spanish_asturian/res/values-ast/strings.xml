@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Asturian (ast) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">español</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">asturianu</string>
+</resources>

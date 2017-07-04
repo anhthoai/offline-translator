@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Marathi (mr) -->
+  <!-- en - English -->
+  <string name="lang_name_one">इंग्रजी</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">मध्य कुर्दिश</string>
+</resources>

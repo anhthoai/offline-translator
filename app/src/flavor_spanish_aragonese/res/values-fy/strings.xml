@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Western Frisian (fy) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Spaansk</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">Aragoneesk</string>
+</resources>

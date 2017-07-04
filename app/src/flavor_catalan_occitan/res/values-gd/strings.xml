@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Scottish Gaelic (gd) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">Catalanais</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Ogsatanais</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Lakota (lkt) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Wašíčuiyapi</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">Kurd Iyápi</string>
+</resources>

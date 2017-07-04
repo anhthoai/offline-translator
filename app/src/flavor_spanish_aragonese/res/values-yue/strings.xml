@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Cantonese (yue) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">西班牙文</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">阿拉貢文</string>
+</resources>

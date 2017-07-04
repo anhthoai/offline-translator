@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Basque (eu) -->
+  <!-- en - English -->
+  <string name="lang_name_one">ingelesa</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">kurduera</string>
+</resources>

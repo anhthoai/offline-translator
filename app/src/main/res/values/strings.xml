@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string translatable="false" name="about_version">1.0.0</string>
+    <string translatable="false" name="about_copyright">©2017 Robert Theis</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="source_code">Source code</string>
+    <string name="about_licenses">Open source licenses</string>
+    <string name="hint_enter_text">Enter text</string>
+    <string name="share_with">Share with</string>
+    <string name="text_copied">Text copied</string>
+    <string name="msg_volume_off">Volume is off</string>
+    <string name="label_about_menu">About</string>
+    <string name="error_billing_flow_launch_failed">Couldn\'t connect to Google Play billing service</string>
+    <string name="lang_name_one">PLACE_HOLDER</string>
+    <string name="lang_name_two">PLACE_HOLDER</string>
+
+    <string translatable="false" name="lang_code_one">PLACE_HOLDER</string>
+    <string translatable="false" name="lang_code_two">PLACE_HOLDER</string>
+    <string translatable="false" name="tts_code_one">PLACE_HOLDER</string>
+    <string translatable="false" name="tts_code_two">PLACE_HOLDER</string>
+    <string translatable="false" name="admob_app_id">PLACE_HOLDER</string>
+    <string translatable="false" name="admob_ad_unit_id">PLACE_HOLDER</string>
+    <string translatable="false" name="in_app_purchase_sku_id">PLACE_HOLDER</string>
+</resources>

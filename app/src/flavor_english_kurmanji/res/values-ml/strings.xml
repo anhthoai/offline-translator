@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Malayalam (ml) -->
+  <!-- en - English -->
+  <string name="lang_name_one">ഇംഗ്ലീഷ്</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">കുർദ്ദിഷ്</string>
+</resources>

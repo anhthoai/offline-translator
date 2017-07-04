@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Indonesian (id) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Spanyol</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">Asturia</string>
+</resources>

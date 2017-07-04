@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Zulu (zu) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">isi-Spanish</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">isi-Aragonese</string>
+</resources>

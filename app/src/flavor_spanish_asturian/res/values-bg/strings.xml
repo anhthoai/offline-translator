@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Bulgarian (bg) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">испански</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">астурски</string>
+</resources>

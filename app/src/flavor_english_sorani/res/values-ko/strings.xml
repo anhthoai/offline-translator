@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Korean (ko) -->
+  <!-- en - English -->
+  <string name="lang_name_one">영어</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">소라니 쿠르드어</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Esperanto (eo) -->
+  <!-- en - English -->
+  <string name="lang_name_one">angla</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">kurda</string>
+</resources>

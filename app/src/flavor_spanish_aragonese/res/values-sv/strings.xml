@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Swedish (sv) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">spanska</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">aragonesiska</string>
+</resources>

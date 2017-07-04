@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Punjabi (pa) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">ਕੈਟਾਲਾਨ</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">ਓਕਸੀਟਾਨ</string>
+</resources>

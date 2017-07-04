@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Thai (th) -->
+  <!-- en - English -->
+  <string name="lang_name_one">อังกฤษ</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">เคิร์ด</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Punjabi (pa) -->
+  <!-- en - English -->
+  <string name="lang_name_one">ਅੰਗਰੇਜ਼ੀ</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">ਕੇਂਦਰੀ ਕੁਰਦਿਸ਼</string>
+</resources>

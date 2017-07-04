@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Uyghur (ug) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">ئىسپانچە</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">ئوكسىتچە</string>
+</resources>

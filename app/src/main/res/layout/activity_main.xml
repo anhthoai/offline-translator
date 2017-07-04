@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/primary_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.rmtheis.translator.standalone.MainActivity">
+
+            <RelativeLayout
+                android:id="@+id/modeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/sourceLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/swapButton"
+                    android:layout_toStartOf="@+id/swapButton"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    tools:text="Spanish" />
+
+                <ImageButton
+                    android:id="@+id/swapButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="swapDirection"
+                    android:src="@drawable/ic_swap_horiz_24dp" />
+
+                <TextView
+                    android:id="@+id/targetLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/swapButton"
+                    android:layout_toRightOf="@+id/swapButton"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    tools:text="Occitan" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/inputCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/modeView"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginRight="-1dp"
+                android:layout_marginStart="-1dp"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardElevation="3dp">
+
+                <LinearLayout
+                    android:id="@+id/sourceHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/inputLanguageLabel"
+                            style="@style/AppTheme"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="12dp"
+                            android:textAllCaps="true"
+                            android:textSize="14sp"
+                            tools:text="Spanish" />
+
+                        <ImageButton
+                            android:id="@+id/clearButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackground"
+                            android:onClick="clearText"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_clear_black_24dp"
+                            android:visibility="invisible"
+                            tools:visibility="visible" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/inputText"
+                        style="@style/AppTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="top"
+                        android:hint="@string/hint_enter_text"
+                        android:imeOptions="actionDone|flagNoExtractUi"
+                        android:minHeight="90dp"
+                        android:paddingBottom="12dp"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:paddingTop="4dp"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/goButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/inputCardView"
+                android:layout_centerHorizontal="true"
+                android:onClick="translate"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/ic_translate_black_24dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goButton"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/translationCardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/progressBar"
+                android:layout_below="@+id/goButton"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/colorBackground"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:visibility="invisible"
+                card_view:cardCornerRadius="2dp"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/targetLanguageLabel"
+                        style="@style/AppTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        tools:text="Occitan" />
+
+                    <TextView
+                        android:id="@+id/translationText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:paddingTop="4dp"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="18sp"
+                        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/speakButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackground"
+                            android:onClick="speakTargetText"
+                            android:padding="12dp"
+                            android:paddingBottom="12dp"
+                            android:src="@drawable/ic_volume_up_24dp"
+                            android:visibility="visible"
+                            tools:visibility="visible" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackground"
+                            android:onClick="shareTargetText"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_share_24dp" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackground"
+                            android:onClick="copyTargetText"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_content_copy_24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_below="@id/translationCardView" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/admob_ad_unit_id" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="6dp" />
+</LinearLayout>

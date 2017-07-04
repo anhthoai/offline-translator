@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Azerbaijani (az) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">katalan</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">oksitan</string>
+</resources>

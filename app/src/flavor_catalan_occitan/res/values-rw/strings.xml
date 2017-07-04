@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Kinyarwanda (rw) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">Igikatalani</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Inyogusitani</string>
+</resources>

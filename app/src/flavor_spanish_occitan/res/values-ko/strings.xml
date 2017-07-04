@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Korean (ko) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">스페인어</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">오크어</string>
+</resources>

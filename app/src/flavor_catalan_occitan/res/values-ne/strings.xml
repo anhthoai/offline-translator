@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Nepali (ne) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">क्याटालन</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">अक्सिटन</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Armenian (hy) -->
+  <!-- en - English -->
+  <string name="lang_name_one">անգլերեն</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">սորանի քրդերեն</string>
+</resources>

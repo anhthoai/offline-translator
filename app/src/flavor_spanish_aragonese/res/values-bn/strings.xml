@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Bangla (bn) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">স্প্যানিশ</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">আর্গোনিজ</string>
+</resources>

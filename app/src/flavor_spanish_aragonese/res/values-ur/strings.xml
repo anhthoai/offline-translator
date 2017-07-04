@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Urdu (ur) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">ہسپانوی</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">اراگونیز</string>
+</resources>

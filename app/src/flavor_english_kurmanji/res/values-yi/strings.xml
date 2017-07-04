@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Yiddish (yi) -->
+  <!-- en - English -->
+  <string name="lang_name_one">ענגליש</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">קורדיש</string>
+</resources>

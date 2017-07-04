@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Urdu (ur) -->
+  <!-- en - English -->
+  <string name="lang_name_one">انگریزی</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">سورانی کردش</string>
+</resources>

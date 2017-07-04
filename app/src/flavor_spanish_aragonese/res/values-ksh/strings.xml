@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Colognian (ksh) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Schpahnesch</string>
+  <!-- an - Aragonese -->
+  <string name="lang_name_two">Arrajonehsesch</string>
+</resources>

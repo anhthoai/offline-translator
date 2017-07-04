@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Japanese (ja) -->
+  <!-- en - English -->
+  <string name="lang_name_one">英語</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">クルド語</string>
+</resources>

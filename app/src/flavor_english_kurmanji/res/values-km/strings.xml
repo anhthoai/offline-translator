@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Khmer (km) -->
+  <!-- en - English -->
+  <string name="lang_name_one">អង់គ្លេស</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">ឃឺដ</string>
+</resources>

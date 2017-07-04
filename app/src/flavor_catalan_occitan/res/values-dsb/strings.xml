@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Lower Sorbian (dsb) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">katanlanšćina</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">okcitanšćina</string>
+</resources>

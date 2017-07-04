@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Armenian (hy) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">կատալաներեն</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">օքսիտաներեն</string>
+</resources>

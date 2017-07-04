@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Uzbek (uz) -->
+  <!-- en - English -->
+  <string name="lang_name_one">inglizcha</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">kurdcha</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Romanian (ro) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">catalană</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">occitană</string>
+</resources>

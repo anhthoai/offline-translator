@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Amharic (am) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">ካታላንኛ</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">ኦኪታንኛ</string>
+</resources>

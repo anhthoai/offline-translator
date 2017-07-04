@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Slovenian (sl) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">španščina</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">okcitanščina</string>
+</resources>

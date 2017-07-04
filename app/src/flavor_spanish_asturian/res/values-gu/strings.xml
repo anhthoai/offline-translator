@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Gujarati (gu) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">સ્પેનિશ</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">અસ્તુરિયન</string>
+</resources>

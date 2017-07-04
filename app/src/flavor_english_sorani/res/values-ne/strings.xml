@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Nepali (ne) -->
+  <!-- en - English -->
+  <string name="lang_name_one">अङ्ग्रेजी</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">केन्द्रीय कुर्दी</string>
+</resources>

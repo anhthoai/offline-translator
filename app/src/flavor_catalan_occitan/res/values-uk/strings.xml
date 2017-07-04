@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Ukrainian (uk) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">каталонська</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">окитан</string>
+</resources>

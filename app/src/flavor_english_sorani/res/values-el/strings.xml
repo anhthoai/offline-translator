@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Greek (el) -->
+  <!-- en - English -->
+  <string name="lang_name_one">Αγγλικά</string>
+  <!-- ckb - Central Kurdish -->
+  <string name="lang_name_two">Κουρδικά Σοράνι</string>
+</resources>

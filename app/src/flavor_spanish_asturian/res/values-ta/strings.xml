@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Tamil (ta) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">ஸ்பானிஷ்</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">அஸ்துரியன்</string>
+</resources>

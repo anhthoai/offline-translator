@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Vietnamese (vi) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Tiếng Tây Ban Nha</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">Tiếng Occitan</string>
+</resources>

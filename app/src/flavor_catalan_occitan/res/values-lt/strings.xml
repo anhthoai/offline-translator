@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Lithuanian (lt) -->
+  <!-- ca - Catalan -->
+  <string name="lang_name_one">katalonų</string>
+  <!-- oc - Occitan -->
+  <string name="lang_name_two">očitarų</string>
+</resources>

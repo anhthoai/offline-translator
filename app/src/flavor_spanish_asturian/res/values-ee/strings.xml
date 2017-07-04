@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Ewe (ee) -->
+  <!-- es - Spanish -->
+  <string name="lang_name_one">Spanishgbe</string>
+  <!-- ast - Asturian -->
+  <string name="lang_name_two">asturiagbe</string>
+</resources>

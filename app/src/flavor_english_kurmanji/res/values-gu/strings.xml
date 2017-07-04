@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Gujarati (gu) -->
+  <!-- en - English -->
+  <string name="lang_name_one">અંગ્રેજી</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">કુર્દિશ</string>
+</resources>

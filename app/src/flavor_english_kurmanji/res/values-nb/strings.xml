@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Norwegian Bokmål (nb) -->
+  <!-- en - English -->
+  <string name="lang_name_one">engelsk</string>
+  <!-- ku - Kurdish -->
+  <string name="lang_name_two">kurdisk</string>
+</resources>
