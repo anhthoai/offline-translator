@@ -17,19 +17,17 @@
 package com.rmtheis.translator.standalone
 
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.view.View
-import com.google.android.gms.ads.AdListener
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdView
-import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.*
 
 open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
 
-    protected var mAdView: AdView? = null
-    private var mStartedShowingAds: Boolean = false
+    private var mNativeAdView: NativeExpressAdView? = null
+    private var mShouldBeginShowingInterstitialAds: Boolean = false
+    private var mInterstitialAd: InterstitialAd? = null
 
     private var mBillingFragment: BillingFragment? = null
     protected var mIsBillingAvailable: Boolean = false
@@ -40,7 +38,7 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
 
         AdRequest.Builder().addTestDevice("B5B48E895797CA5A93E24D119E45445B")
 
-        if (mAdView == null) {
+        if (mNativeAdView == null) {
             MobileAds.initialize(applicationContext, getString(R.string.admob_app_id));
         }
 
@@ -66,6 +64,36 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        if (shouldShowAds() && mInterstitialAd == null) {
+            mInterstitialAd = InterstitialAd(this)
+            mInterstitialAd!!.adUnitId = getString(R.string.admob_ad_unit_id_interstitial_ad)
+            mInterstitialAd!!.loadAd(AdRequest.Builder().build())
+
+            mInterstitialAd!!.adListener = object : AdListener() {
+                override fun onAdClosed() {
+                    mInterstitialAd!!.loadAd(AdRequest.Builder().build())
+                }
+            }
+
+            val timeDurationMs: Long = 30000
+            object : CountDownTimer(timeDurationMs, timeDurationMs) {
+                override fun onTick(millisUntilFinished: Long) {
+                    // Do nothing
+                }
+
+                override fun onFinish() {
+                    mShouldBeginShowingInterstitialAds = true
+                }
+            }.start()
+        }
+        if (mShouldBeginShowingInterstitialAds && mInterstitialAd!!.isLoaded) {
+            mInterstitialAd!!.show()
+        }
+    }
+
     override fun onSaveInstanceState(outState: Bundle?) {
         super.onSaveInstanceState(outState)
         outState?.putBoolean(IS_BILLING_AVAILABLE_TAG, mIsBillingAvailable)
@@ -77,8 +105,6 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
     }
 
     override fun setAdvertisingDisabled(disabled: Boolean) {
-        Log.e("AdsActivity", "setAdvertisingDisabled() disabled=" + disabled)
-
         mIsAdvertisingDisabled = disabled
 
         // Cache as a preference value so don't need to check billing service in the future,
@@ -87,55 +113,30 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
         prefs.edit().putBoolean(AdsActivity.SHOW_ADS_PREFERENCE_KEY, !disabled).apply()
     }
 
+    private fun shouldShowAds() : Boolean {
+        return !mIsAdvertisingDisabled && resources.getBoolean(R.bool.show_ads) &&
+                !BuildConfig.DEBUG
+    }
+
     protected fun startShowingAds() {
-        if (mIsAdvertisingDisabled || !resources.getBoolean(R.bool.show_ads)) {
-            mAdView?.visibility = View.GONE
+        if (!shouldShowAds()) {
+            mNativeAdView?.visibility = View.GONE
             return
         }
-        if (mAdView == null) {
-            mAdView = findViewById(R.id.adView) as AdView
-            mAdView?.loadAd(AdRequest.Builder().build())
+        if (mNativeAdView == null) {
+            mNativeAdView = findViewById(R.id.adView)
+            mNativeAdView!!.loadAd(AdRequest.Builder().build())
 
-            mAdView?.adListener = object : AdListener() {
+            mNativeAdView!!.adListener = object : AdListener() {
                 override fun onAdLoaded() {
-                    Log.i(TAG, "onAdLoaded")
-                    // Ads need a width of 411 dp to show ad, so check this for reduced_layout
-                    if (findViewById(R.id.reduced_layout) == null) {
-                        showAdView(true)
-                    } else {
-                        // Can't directly measure adView width, so measure sibling layout width
-                        val dpWidth = findViewById(R.id.primary_layout).width /
-                                resources.displayMetrics.density
-                        if (dpWidth > 411) {
-                            showAdView(true)
-                        }
-                    }
-                }
-
-                override fun onAdFailedToLoad(errorCode: Int) {
-                    // Code to be executed when an ad request fails.
-                    Log.i(TAG, "onAdFailedToLoad")
-                    showAdView(false)
-                }
-
-                override fun onAdOpened() {
-                    // Code to be executed when an ad opens an overlay that covers the screen.
-                }
-
-                override fun onAdLeftApplication() {
-                    // Code to be executed when the user has left the app.
-                }
-
-                override fun onAdClosed() {
-                    // Code to be executed when when the user is about to return
-                    // to the app after tapping on an ad.
+                    showNativeAdView(true)
                 }
             }
         }
     }
 
-    fun showAdView(show: Boolean) {
-        mAdView?.visibility = if (show && !BuildConfig.DEBUG) View.VISIBLE else View.GONE
+    fun showNativeAdView(show: Boolean) {
+        mNativeAdView?.visibility = if (show && !BuildConfig.DEBUG) View.VISIBLE else View.GONE
     }
 
     companion object {

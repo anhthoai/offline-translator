@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/primary_layout"
     android:layout_width="match_parent"
@@ -54,7 +55,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:onClick="swapDirection"
-                    android:src="@drawable/ic_swap_horiz_24dp" />
+                    app:srcCompat="@drawable/ic_swap_horiz_24dp" />
 
                 <TextView
                     android:id="@+id/targetLanguage"
@@ -84,6 +85,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/modeView"
                 android:layout_gravity="center_vertical"
+                android:layout_marginBottom="12dp"
                 android:layout_marginEnd="-1dp"
                 android:layout_marginLeft="-1dp"
                 android:layout_marginRight="-1dp"
@@ -121,8 +123,8 @@
                             android:background="?attr/selectableItemBackground"
                             android:onClick="clearText"
                             android:padding="12dp"
-                            android:src="@drawable/ic_clear_black_24dp"
                             android:visibility="invisible"
+                            app:srcCompat="@drawable/ic_clear_black_24dp"
                             tools:visibility="visible" />
                     </LinearLayout>
 
@@ -146,24 +148,25 @@
 
             </android.support.v7.widget.CardView>
 
-            <ImageButton
-                android:id="@+id/goButton"
-                style="?android:attr/borderlessButtonStyle"
+            <android.support.design.widget.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/inputCardView"
-                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/inputCardView"
+                android:layout_marginEnd="64dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginTop="-22dp"
+                android:clickable="true"
                 android:onClick="translate"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
-                android:src="@drawable/ic_translate_black_24dp" />
+                app:srcCompat="@drawable/ic_translate_black_24dp" />
 
             <ProgressBar
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/goButton"
+                android:layout_below="@id/inputCardView"
                 android:visibility="gone"
                 tools:visibility="visible" />
 
@@ -172,7 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignTop="@id/progressBar"
-                android:layout_below="@+id/goButton"
+                android:layout_below="@+id/inputCardView"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
@@ -228,8 +231,8 @@
                             android:onClick="speakTargetText"
                             android:padding="12dp"
                             android:paddingBottom="12dp"
-                            android:src="@drawable/ic_volume_up_24dp"
                             android:visibility="visible"
+                            app:srcCompat="@drawable/ic_volume_up_24dp"
                             tools:visibility="visible" />
 
                         <ImageButton
@@ -238,7 +241,7 @@
                             android:background="?attr/selectableItemBackground"
                             android:onClick="shareTargetText"
                             android:padding="12dp"
-                            android:src="@drawable/ic_share_24dp" />
+                            app:srcCompat="@drawable/ic_share_24dp" />
 
                         <ImageButton
                             android:layout_width="wrap_content"
@@ -246,26 +249,36 @@
                             android:background="?attr/selectableItemBackground"
                             android:onClick="copyTargetText"
                             android:padding="12dp"
-                            android:src="@drawable/ic_content_copy_24dp" />
+                            app:srcCompat="@drawable/ic_content_copy_24dp" />
 
                     </LinearLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v4.widget.Space
+                android:id="@+id/bottomSpace"
                 android:layout_width="match_parent"
-                android:layout_height="8dp"
+                android:layout_height="16dp"
                 android:layout_below="@id/translationCardView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bottomSpace"
+                android:gravity="center_horizontal">
+
+                <com.google.android.gms.ads.NativeExpressAdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foregroundGravity="center"
+                    ads:adSize="FULL_WIDTHx200"
+                    ads:adUnitId="@string/admob_ad_unit_id_native_ad" />
+            </LinearLayout>
 
         </RelativeLayout>
     </ScrollView>
-
-    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/admob_ad_unit_id" />
 
     <Space
         android:layout_width="wrap_content"

@@ -86,16 +86,16 @@ open class MainActivity : AdsActivity(), TranslatorFragment.TranslationListener 
                     .add(mTranslatorFragment, TRANSLATOR_FRAGMENT_TAG).commit()
         }
 
-        mSourceLanguage = findViewById(R.id.sourceLanguage) as TextView
-        mTargetLanguage = findViewById(R.id.targetLanguage) as TextView
-        mInputLanguageLabel = findViewById(R.id.inputLanguageLabel) as TextView
-        mClearButton = findViewById(R.id.clearButton) as ImageButton
-        mInputText = findViewById(R.id.inputText) as EditText
-        mProgressBar = findViewById(R.id.progressBar) as ProgressBar
-        mTranslationCardView = findViewById(R.id.translationCardView) as CardView
-        mTargetLanguageLabel = findViewById(R.id.targetLanguageLabel) as TextView
-        mTranslationText = findViewById(R.id.translationText) as TextView
-        mSpeakButton = findViewById(R.id.speakButton) as ImageButton
+        mSourceLanguage = findViewById<TextView>(R.id.sourceLanguage) as TextView
+        mTargetLanguage = findViewById<TextView>(R.id.targetLanguage) as TextView
+        mInputLanguageLabel = findViewById<TextView>(R.id.inputLanguageLabel) as TextView
+        mClearButton = findViewById<ImageButton>(R.id.clearButton) as ImageButton
+        mInputText = findViewById<EditText>(R.id.inputText) as EditText
+        mProgressBar = findViewById<ProgressBar>(R.id.progressBar) as ProgressBar
+        mTranslationCardView = findViewById<CardView>(R.id.translationCardView) as CardView
+        mTargetLanguageLabel = findViewById<TextView>(R.id.targetLanguageLabel) as TextView
+        mTranslationText = findViewById<TextView>(R.id.translationText) as TextView
+        mSpeakButton = findViewById<ImageButton>(R.id.speakButton) as ImageButton
 
         mInputText.addTextChangedListener(object: TextWatcher {
             override fun afterTextChanged(s: Editable?) {
@@ -179,7 +179,7 @@ open class MainActivity : AdsActivity(), TranslatorFragment.TranslationListener 
         if (requestCode == ABOUT_ACTIVITY_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             Log.d(TAG, "Advertising was disabled in AboutActivity. Hiding ads...")
             mIsAdvertisingDisabled = true
-            showAdView(false)
+            showNativeAdView(false)
         }
     }
 
@@ -280,7 +280,7 @@ open class MainActivity : AdsActivity(), TranslatorFragment.TranslationListener 
     fun shareTargetText(view: View) {
             val shareTextIntent = Intent(android.content.Intent.ACTION_SEND)
             shareTextIntent.type = "text/plain"
-            shareTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, mTranslationText.text)
+            shareTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, mTranslationText.text.toString())
             try {
                 startActivity(Intent.createChooser(shareTextIntent, getString(R.string.share_with)))
             } catch (e: ActivityNotFoundException) {
