@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Translator</string>
-    <string translatable="false" name="about_version">1.1.0</string>
-    <string translatable="false" name="about_copyright">©2017 Robert Theis</string>
+    <string translatable="false" name="about_version">1.2.0</string>
+    <string translatable="false" name="about_copyright">©2018 Robert Theis</string>
     <string name="remove_ads">Remove ads</string>
     <string name="source_code">Source code</string>
     <string name="about_licenses">Open source licenses</string>
@@ -19,7 +19,7 @@
     <string translatable="false" name="tts_code_one">PLACE_HOLDER</string>
     <string translatable="false" name="tts_code_two">PLACE_HOLDER</string>
     <string translatable="false" name="admob_app_id">PLACE_HOLDER</string>
-    <string translatable="false" name="admob_ad_unit_id_native_ad">PLACE_HOLDER</string>
+    <string translatable="false" name="admob_ad_unit_id_banner_ad">PLACE_HOLDER</string>
     <string translatable="false" name="admob_ad_unit_id_interstitial_ad">PLACE_HOLDER</string>
     <string translatable="false" name="in_app_purchase_sku_id">PLACE_HOLDER</string>
 </resources>

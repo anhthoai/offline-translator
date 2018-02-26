@@ -3,8 +3,8 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
-def keystoreFile = Os.isFamily(Os.FAMILY_WINDOWS) ? "C:\\Users\\Robert\\Documents\\keystore\\keystore1" : "/home/theis/keystore/keystore1"
-def propertiesFile = Os.isFamily(Os.FAMILY_WINDOWS) ? "C:\\Users\\Robert\\Documents\\keystore\\secure.properties" : "/home/theis/keystore/secure.properties"
+def keystoreFile = Os.isFamily(Os.FAMILY_WINDOWS) ? "C:\\Dropbox\\documents\\keystore\\keystore1" : "/home/theis/keystore/keystore1"
+def propertiesFile = Os.isFamily(Os.FAMILY_WINDOWS) ? "C:\\Dropbox\\documents\\keystore\\secure.properties" : "/home/theis/keystore/secure.properties"
 
 Properties properties = new Properties()
 properties.load(project.rootProject.file(propertiesFile).newDataInputStream())
@@ -16,8 +16,8 @@ android {
         applicationId "com.rmtheis.translator.standalone"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 8
-        versionName "1.1.0"
+        versionCode 10
+        versionName "1.2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }

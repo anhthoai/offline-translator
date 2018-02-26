@@ -9,7 +9,7 @@
     <string translatable="false" name="tts_code_two">ckb</string>
 
     <string translatable="false" name="admob_app_id">ca-app-pub-1679908467869062~2788794236</string>
-    <string translatable="false" name="admob_ad_unit_id_native_ad">ca-app-pub-1679908467869062/5000874730</string>
+    <string translatable="false" name="admob_ad_unit_id_native_ad">ca-app-pub-1679908467869062/9533404931</string>
     <string translatable="false" name="admob_ad_unit_id_interstitial_ad">ca-app-pub-1679908467869062/3596116118</string>
     <string translatable="false" name="in_app_purchase_sku_id">disable_ads_2017.07.22</string>
 </resources>

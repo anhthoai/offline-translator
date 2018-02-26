@@ -261,26 +261,20 @@
                 android:layout_height="16dp"
                 android:layout_below="@id/translationCardView" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/bottomSpace"
-                android:gravity="center_horizontal">
-
-                <com.google.android.gms.ads.NativeExpressAdView
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/adView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:foregroundGravity="center"
-                    ads:adSize="FULL_WIDTHx200"
-                    ads:adUnitId="@string/admob_ad_unit_id_native_ad" />
-            </LinearLayout>
-
         </RelativeLayout>
     </ScrollView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_ad_unit_id_banner_ad" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="6dp" />
+
 </LinearLayout>

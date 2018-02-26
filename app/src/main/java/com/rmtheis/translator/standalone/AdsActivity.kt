@@ -25,7 +25,7 @@ import com.google.android.gms.ads.*
 
 open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
 
-    private var mNativeAdView: NativeExpressAdView? = null
+    private var mBannerAdView: AdView? = null
     private var mShouldBeginShowingInterstitialAds: Boolean = false
     private var mInterstitialAd: InterstitialAd? = null
 
@@ -38,7 +38,7 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
 
         AdRequest.Builder().addTestDevice("B5B48E895797CA5A93E24D119E45445B")
 
-        if (mNativeAdView == null) {
+        if (mBannerAdView == null) {
             MobileAds.initialize(applicationContext, getString(R.string.admob_app_id));
         }
 
@@ -120,23 +120,23 @@ open class AdsActivity : AppCompatActivity(), BillingFragment.BillingListener  {
 
     protected fun startShowingAds() {
         if (!shouldShowAds()) {
-            mNativeAdView?.visibility = View.GONE
+            mBannerAdView?.visibility = View.GONE
             return
         }
-        if (mNativeAdView == null) {
-            mNativeAdView = findViewById(R.id.adView)
-            mNativeAdView!!.loadAd(AdRequest.Builder().build())
+        if (mBannerAdView == null) {
+            mBannerAdView = findViewById(R.id.adView)
+            mBannerAdView!!.loadAd(AdRequest.Builder().build())
 
-            mNativeAdView!!.adListener = object : AdListener() {
+            mBannerAdView!!.adListener = object : AdListener() {
                 override fun onAdLoaded() {
-                    showNativeAdView(true)
+                    showBannerAdView(true)
                 }
             }
         }
     }
 
-    fun showNativeAdView(show: Boolean) {
-        mNativeAdView?.visibility = if (show && !BuildConfig.DEBUG) View.VISIBLE else View.GONE
+    fun showBannerAdView(show: Boolean) {
+        mBannerAdView?.visibility = if (show && !BuildConfig.DEBUG) View.VISIBLE else View.GONE
     }
 
     companion object {

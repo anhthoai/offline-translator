@@ -179,7 +179,7 @@ open class MainActivity : AdsActivity(), TranslatorFragment.TranslationListener 
         if (requestCode == ABOUT_ACTIVITY_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             Log.d(TAG, "Advertising was disabled in AboutActivity. Hiding ads...")
             mIsAdvertisingDisabled = true
-            showNativeAdView(false)
+            showBannerAdView(false)
         }
     }
 

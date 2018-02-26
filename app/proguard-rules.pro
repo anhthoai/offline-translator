@@ -51,3 +51,5 @@
 -assumenosideeffects class com.google.android.gms.ads.AdRequest.Builder {
     public static *** addTestDevice(...);
 }
+
+-dontwarn kotlin.**
