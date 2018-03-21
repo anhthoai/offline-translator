@@ -9,7 +9,7 @@
     <string translatable="false" name="tts_code_two">kmr</string>
 
     <string translatable="false" name="admob_app_id">ca-app-pub-1679908467869062~8556126233</string>
-    <string translatable="false" name="admob_ad_unit_id_native_ad">ca-app-pub-1679908467869062/1032859431</string>
+    <string translatable="false" name="admob_ad_unit_id_banner_ad">ca-app-pub-1679908467869062/1032859431</string>
     <string translatable="false" name="admob_ad_unit_id_interstitial_ad">ca-app-pub-1679908467869062/9033766310</string>
     <string translatable="false" name="in_app_purchase_sku_id">disable_ads_2017.07.22</string>
 </resources>
